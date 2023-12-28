@@ -11,7 +11,7 @@ class Product(Resource):
                 'Ice cream', 'Chocolate', 'Fruit'
             ]
         }
-    
+
 api.add_resource(Product, '/')
 
 if __name__ == '__main__':
